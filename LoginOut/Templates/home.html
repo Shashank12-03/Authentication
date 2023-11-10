@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor and Patients Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+        
+        .logo h1 {
+            margin: 0;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        nav li {
+            margin-right: 20px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        
+        main {
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .hero {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 50px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .login-signup {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+
+        .login-signup div {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin: 10px;
+        }
+
+        .login-signup h3 {
+            color: #333;
+        }
+
+        .login-signup li {
+            list-style: none;
+            margin: 10px 0;
+        }
+
+        .login-signup a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #4caf50;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: inline-block; /* Added display property */
+        }
+
+        .login-signup a:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Doctor and Patients Login</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <h2>Welcome to Your App</h2>
+            <p>Empowering patients and doctors for a healthier world.</p>
+        </section>
+
+        <div class="login-signup">
+            <div>
+                <h3>Doctor Login/Signup</h3>
+                <li><a href="DoctorLogin/">Login</a></li>
+                <li><a href="DoctorSignup/">Signup</a></li>
+            </div>
+            <div>
+                <h3>Patient Login/Signup</h3>
+                <li><a href="PatientLogin/">Login</a></li>
+                <li><a href="PatientSignup/">Signup</a></li>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023  All rights reserved.</p>
+    </footer>
+</body>
+</html>
